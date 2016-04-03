@@ -29,5 +29,4 @@ la classe Printer sert à afficher.
 
 - Principe SOLID S (Single Responsability Principle) : un composant ne doit avoir qu’une seule responsabilité. Par exemple, dans notre code, nous n’avons pas fait l’anti-pattern Wet code, c’est-à-dire tout répéter deux fois. Les pièces en mouvement ne sont gérées que par une seule classe, la classe MovingPiece, et à l'inverse la classe MovingPiece ne gère que les pièces en mouvement : elle a donc bien une unique responsabilité.
 - Principe SOLID I (Interface Segregation Principle) : Dans notre code, les composants n’implémentent que des interfaces qu’ils utilisent. C'est le cas de MovingPiece par exemple, qui implémente l'interface Movable et l'utilise complètement.
-- 
 
